@@ -3,7 +3,7 @@
 ← Choose language | Выберите язык
 
 # JoyAdvance
-Xbox gamepad emulation for DInput controllers. Connect any DInput controller - wheel, retro, or modern gamepad — map any buttons and axes to an Xbox gamepad, and enjoy the game. Works based on the driver [ViGEm](https://github.com/nefarius/ViGEmBus).
+Xbox gamepad emulation for DInput controllers. Connect any DInput controller - wheel, retro, or modern gamepad - map any buttons and axes to an Xbox gamepad, and enjoy the game. Works based on the driver [ViGEm](https://github.com/nefarius/ViGEmBus).
 
 ## Setup
 1. Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases).
