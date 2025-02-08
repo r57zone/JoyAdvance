@@ -4,9 +4,6 @@
 # JoyAdvance
 Эмуляция геймпада Xbox для контроллеров DInput. Подключите любой DInput-контроллер - руль, ретро или современный геймпад, назначьте любые кнопки и оси на Xbox-геймпаде? и наслаждайтесь игрой. Работает на базе драйвера [ViGEm](https://github.com/nefarius/ViGEmBus).
 
-[![](https://user-images.githubusercontent.com/9499881/164945071-5b9f86dd-c396-45a5-817b-fc7068450f02.gif)](https://youtu.be/gkyqO_HuPnk)
-[![](https://user-images.githubusercontent.com/9499881/164945073-cfa1bfb7-cb82-4714-b2ad-7ecd84a5bcfc.gif)](https://youtu.be/gkyqO_HuPnk)
-
 ## Настройка
 1. Установите [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases).
 2. Установите Microsoft Visual C++ Redistributable 2017 или новее.
