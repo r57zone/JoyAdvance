@@ -2,17 +2,17 @@
 [![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/JoyAdvance/blob/master/README.RU.md)
 
 # JoyAdvance
-Эмуляция геймпада Xbox для контроллеров DInput. Подключите любой DInput-контроллер - руль, ретро или современный геймпад, назначьте любые кнопки и оси на Xbox-геймпаде, и наслаждайтесь игрой. Работает на базе драйвера [ViGEm](https://github.com/nefarius/ViGEmBus).
+Эмуляция геймпада Xbox для контроллеров DInput. Подключите любой DInput-контроллер - руль, ретро или современный геймпад, назначьте любые кнопки и оси на Xbox-геймпаде, и наслаждайтесь игрой. Работает на базе драйвера [ViGEm](https://github.com/nefarius/ViGEmBus). Для Sony DualSense, DualShock 4, Nintendo Pro контроллера или Джойконов рекомендуется использовать [DSAdvance](https://github.com/r57zone/DSAdvance/) (более адаптированная).
 
 ## Настройка
 1. Установите [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases).
 2. Установите Microsoft Visual C++ Redistributable 2017 или новее.
 3. Подключите любой DInput-контроллер (руль, ретро или или современный геймпад), кроме Xbox-контроллеров.
-4. Распакуйте и запустить JoyAdvance.
+4. Распакуйте и запустите JoyAdvance.
 5. При необходимости измените профиль по умолчанию, в конфигурационном файле `Config.ini`.
 6. Скопируйте профиль по умолчанию `Default.ini`, в папке `Profiles`, и создайте свой профиль. Оси и номера кнопок можно посмотреть в программе для Windows `Joy.cpl`, для её запуска нажмите `Win + R` и введите `joy.cpl`. Названия осей для профиля можно посмотреть в файлах профилей. Проверить результат можно в программе `XInputTest.exe`.
-6. При использовании Sony контроллеров со Steam играми, в настройках контроллера, отключите "персональные настройки Playstation".
-7. При использовании Sony контроллеров с современными играми, рекомендуется установить [HidHide](https://github.com/nefarius/HidHide/releases), после чего в "HidHide Configuration Client" нужно добавить `JoyAdvance.exe` и включить параметр `Enable device hiding` (если выключен). Необходимо для того, чтобы игра не видела наш контроллер, а видела только эмулируемый Xbox 360 геймпад.
+7. При использовании Sony контроллеров со Steam играми, в настройках контроллера, отключите "персональные настройки Playstation".
+8. При использовании Sony контроллеров с современными играми, рекомендуется установить [HidHide](https://github.com/nefarius/HidHide/releases), после чего в `HidHide Configuration Client`, в разделе `Application` нужно добавить `JoyAdvance.exe`, а в разделе `Devices` отметить галочкой ваш контроллер (например, Sony Wireless controller) и включить параметр `Enable device hiding` (если выключен). Необходимо для того, чтобы игра не видела наш контроллер, а видела только эмулируемый Xbox 360 геймпад.
 
 ## Загрузка
 >Версия для Windows 10, 11.
@@ -20,7 +20,7 @@
 **[Загрузить](https://github.com/r57zone/JoyAdvance/releases)**
 
 ## Благодарности
-* [ViGEm](https://github.com/ViGEm) за возможность эмуляции разных геймпадов.
+* [ViGEm](https://github.com/nefarius/ViGEmBus) за возможность эмуляции разных геймпадов и [HidHide](https://github.com/nefarius/HidHide/) за их скрытие.
 
 ## Сборка
 1. Загрузите исходники и распакуйте.

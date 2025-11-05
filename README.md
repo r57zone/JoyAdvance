@@ -3,7 +3,7 @@
 ← Choose language | Выберите язык
 
 # JoyAdvance
-Xbox gamepad emulation for DInput controllers. Connect any DInput controller - wheel, retro, or modern gamepad - map any buttons and axes to an Xbox gamepad, and enjoy the game. Works based on the driver [ViGEm](https://github.com/nefarius/ViGEmBus).
+Xbox gamepad emulation for DInput controllers. Connect any DInput controller - wheel, retro, or modern gamepad - map any buttons and axes to an Xbox gamepad, and enjoy the game. Works based on the driver [ViGEm](https://github.com/nefarius/ViGEmBus). For Sony DualSense, DualShock 4, Nintendo Pro controllers, or Joy-Cons, it is recommended to use [DSAdvance](https://github.com/r57zone/DSAdvance/) (more adapted).
 
 ## Setup
 1. Install [ViGEmBus](https://github.com/nefarius/ViGEmBus/releases).
@@ -13,7 +13,7 @@ Xbox gamepad emulation for DInput controllers. Connect any DInput controller - w
 5. If necessary, modify the default profile in the `Config.ini` configuration file.
 6. Copy the default profile `Default.ini` from the `Profiles` folder and create your own profile. You can check axis and button numbers in the Windows program `Joy.cpl`. To launch it, press `Win + R` and enter `joy.cpl`. Axis names for the profile can be found in the profile files. You can test the result in the `XInputTest.exe` program.
 7. When using Sony controllers with Steam games, disable "PlayStation Configuration Support" in the controller settings.
-8. When using Sony controllers with modern games, it is recommended to install [HidHide](https://github.com/nefarius/HidHide/releases). Then, in "HidHide Configuration Client," add `JoyAdvance.exe` and enable the `Enable device hiding` option (if disabled). This is necessary to ensure that the game detects only the emulated Xbox 360 gamepad instead of the actual controller.
+8. When using Sony controllers with modern games, it is recommended to install [HidHide](https://github.com/nefarius/HidHide/releases). Then, in `HidHide Configuration Client`, add `JoyAdvance.exe` in the `Application` section, check your controller (e.g., Sony Wireless Controller) in the `Devices` section, and enable `Enable device hiding` (if it is disabled). This is necessary so that the game does not detect our controller, but only the emulated Xbox 360 gamepad.
 
 ## Download
 >Version for Windows 10, 11.
@@ -21,7 +21,7 @@ Xbox gamepad emulation for DInput controllers. Connect any DInput controller - w
 **[Download](https://github.com/r57zone/JoyAdvance/releases)**
 
 ## Credits
-* [ViGEm](https://github.com/ViGEm) for the ability to emulate different gamepads.
+* [ViGEm](https://github.com/nefarius/ViGEmBus) for the ability to emulate various gamepads and [HidHide](https://github.com/nefarius/HidHide/) for hiding them.
 
 ## Building
 1. Download the sources and unzip them.
